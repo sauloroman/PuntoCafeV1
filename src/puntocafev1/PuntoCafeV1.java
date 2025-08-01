@@ -28,7 +28,7 @@ import controllers.supplier.SupplierController;
 
 import views.access.Access;
 import views.MainFrame;
-import views.purchases.Purchases;
+import views.purchases.Purchasesf;
 import views.queries.Queries;
 import views.sales.Sales;
 import views.access.AccessRoles;
@@ -138,7 +138,7 @@ public class PuntoCafe {
 
                 PurchasesSuppliers purchasesSuppliers = new PurchasesSuppliers();
                 PurchasesBuy purchasesBuy = new PurchasesBuy();
-                Purchases purchases = new Purchases(purchasesSuppliers, purchasesBuy);
+                Purchasesf purchases = new Purchasesf(purchasesSuppliers, purchasesBuy);
 
                 Sales sales = new Sales();
                 Queries queries = new Queries();
