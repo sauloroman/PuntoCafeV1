@@ -2,7 +2,6 @@ package views.access;
 
 import javax.swing.WindowConstants;
 import utils.constants.ViewConstants;
-import views.access.AccessInfoUser;
 import views.components.Button;
 import views.components.ImageCustom;
 import views.components.Input;
